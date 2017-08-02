@@ -1,0 +1,21 @@
+{
+  "name": "react-scrolling-color-background",
+  "version": "1.0.0",
+  "description": "background with transitioning color as you scroll, declarative and easy to setup.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scroll",
+    "background",
+    "scroll",
+    "color",
+    "color",
+    "transition",
+    "react",
+    "reactjs"
+  ],
+  "author": "Jonas Ohlsson Aden",
+  "license": "MIT"
+}
