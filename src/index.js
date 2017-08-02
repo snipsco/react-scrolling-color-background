@@ -6,7 +6,7 @@ import chroma from 'chroma-js'
 class ScrollingColorBackground extends Component {
   constructor (props) {
     super()
-    this.state = {rgbString: this.props.initialRgb}
+    this.state = {rgbString: props.initialRgb}
     this._handleScroll = this._handleScroll.bind(this)
   }
   componentDidMount () {
@@ -65,7 +65,8 @@ class ScrollingColorBackground extends Component {
     }
   }
   render () {
-    const { className, rgbString, style } = this.state
+    const { className, rgbString } = this.state
+    const { style } = this.props
     return (
       <section
         style={{
