@@ -2,9 +2,13 @@
   "name": "react-scrolling-color-background",
   "version": "1.0.0",
   "description": "background with transitioning color as you scroll, declarative and easy to setup.",
+  "homepage": "https://snipsco.github.io/react-scrolling-color-background/",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm run transpile",
+    "transpile": "babel -d lib src/",
+    "build": "npm run build-docs",
+    "build-docs": "webpack -w examples/src examples/dist/app.js --module-bind js=babel-loader"
   },
   "keywords": [
     "scroll",
@@ -17,5 +21,31 @@
     "reactjs"
   ],
   "author": "Jonas Ohlsson Aden",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/snipsco/react-scrolling-color-background.git#master"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chroma-js": "^1.3.4",
+    "lodash.throttle": "^4.1.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.3.0"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "latest",
+      "stage-0"
+    ]
+  }
 }
