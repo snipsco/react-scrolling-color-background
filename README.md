@@ -1,10 +1,12 @@
 # react-scrolling-color-background
 [![NPM version](https://badge.fury.io/js/react-scrolling-color-background.svg)](https://www.npmjs.com/package/react-scrolling-color-background)
 
-## Background with color transitioning as you scroll
-declarative and easy to setup
+Background with color transitioning as you scroll,
+declarative and easy to setup.
 
-Demo coming soon.
+## Example
+This site uses `react-scrolling-color-background`:
+https://snips.ai/content/intro-to-ai
 
 ## Usage
 
