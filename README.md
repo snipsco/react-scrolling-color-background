@@ -30,7 +30,7 @@ Demo coming soon.
 
 | Property | Type | Description
 :---|:---|:---
-| `selector` | string | Css Selector, expected to have background-color data attribute |
+| `selector` | string | Css Selector, matching elements expected to have background-color data attribute |
 | `colorDataAttribute` | string | data attribute name, where value should be rgb string |
 | `initialRgb` | string | rgb string, to use for first render, before any scrolling has occured |
 | `className` | string | optional |
