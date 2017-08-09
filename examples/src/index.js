@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import GithubCorner from './GithubCorner'
 import ScrollingColorBackground from '../../src/'
 
 const darkPurpleRgb = 'rgb(101, 45, 172)'
@@ -25,6 +26,7 @@ const COLORS = [
 
 ReactDOM.render(
   <main>
+    <GithubCorner href="https://github.com/snipsco/react-scrolling-color-background" />
     <ScrollingColorBackground
       selector='.js-color-stop[data-background-color]'
       colorDataAttribute='data-background-color'
