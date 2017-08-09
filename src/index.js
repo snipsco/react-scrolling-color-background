@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import throttle from 'lodash.throttle'
 import chroma from 'chroma-js'
 
+import getElementOffset from './getElementOffset'
+
 class ScrollingColorBackground extends Component {
   constructor(props) {
     super()
@@ -14,7 +16,7 @@ class ScrollingColorBackground extends Component {
     this._colorPositions = [...document.querySelectorAll(selector)].map(el => {
       return {
         rgbString: el.getAttribute(colorDataAttribute),
-        startY: el.offsetTop
+        startY: getElementOffset(el).top
       }
     })
     this._throttledScroll = throttle(this._handleScroll, 60)
