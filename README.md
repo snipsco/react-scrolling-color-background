@@ -5,7 +5,9 @@ Background with color transitioning as you scroll,
 declarative and easy to setup.
 
 ## Example
-This site uses `react-scrolling-color-background`:
+https://snipsco.github.io/react-scrolling-color-background/
+
+Production usage of `react-scrolling-color-background`:
 https://snips.ai/content/intro-to-ai
 
 ## Usage
