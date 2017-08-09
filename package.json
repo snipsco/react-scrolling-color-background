@@ -1,6 +1,6 @@
 {
   "name": "react-scrolling-color-background",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "background with transitioning color as you scroll, declarative and easy to setup.",
   "homepage": "https://snipsco.github.io/react-scrolling-color-background/",
   "main": "lib/index.js",
