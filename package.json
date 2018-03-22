@@ -51,6 +51,9 @@
     "react-dom": "^16.2.0",
     "webpack": "^4.2.0"
   },
+  "files": [
+    "lib/**/*.js"
+  ],
   "babel": {
     "presets": [
       "react",
