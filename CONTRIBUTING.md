@@ -8,9 +8,9 @@ new features and patches.
 
 Getting Started
 ---------------
-#. Make sure you have a GitHub account.
-#. Open a [new issue](https://github.com/snipsco/react-scrolling-color-background/issues), assuming one does not already exist.
-#. Clearly describe the issue including steps to reproduce when it is a bug.
+* Make sure you have a GitHub account.
+* Open a [new issue](https://github.com/snipsco/react-scrolling-color-background/issues), assuming one does not already exist.
+* Clearly describe the issue including steps to reproduce when it is a bug.
 
 Making Changes
 --------------
