@@ -1,6 +1,6 @@
 # react-scrolling-color-background
 [![NPM version](https://badge.fury.io/js/react-scrolling-color-background.svg)](https://www.npmjs.com/package/react-scrolling-color-background)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/snipsco/react-scrolling-color-background/master/LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/snipsco/react-scrolling-color-background/blob/master/LICENSE)
 
 Background with color transitioning as you scroll,
 declarative and easy to setup.
