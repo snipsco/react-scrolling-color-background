@@ -12,7 +12,7 @@ https://snips.ai/content/intro-to-ai
 
 ## Usage
 
-```js
+```jsx
 <ScrollingColorBackground
   selector='.js-color-stop[data-background-color]'
   colorDataAttribute='data-background-color'
