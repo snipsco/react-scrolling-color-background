@@ -59,6 +59,7 @@ class ScrollingColorBackground extends Component {
     const rgbString = `rgb(${Math.round(r)},${Math.round(g)},${Math.round(b)})`
 
     if (rgbString !== this.state.rgbString) {
+      document.body.style = `background-color: ${rgbString};`
       this.setState({ rgbString })
     }
   }
