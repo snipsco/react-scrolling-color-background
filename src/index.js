@@ -84,7 +84,7 @@ ScrollingColorBackground.propTypes = {
   initialRgb: PropTypes.string.isRequired,
   selector: PropTypes.string.isRequired,
   colorDataAttribute: PropTypes.string.isRequired,
-  onChange: PropTypes.func.isRequired
+  onChange: PropTypes.func
 }
 
 ScrollingColorBackground.defaultProps = {
