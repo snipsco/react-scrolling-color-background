@@ -8,8 +8,7 @@
     "prepublish": "npm run transpile",
     "transpile": "babel -d lib src/",
     "build": "npm run build-docs",
-    "build-docs": "webpack --mode=production examples/src -o examples/dist/app.js --module-bind js=babel-loader",
-    "precommit": "lint-staged"
+    "build-docs": "webpack --mode=production examples/src -o examples/dist/app.js --module-bind js=babel-loader"
   },
   "lint-staged": {
     "src/**/*.js": [
@@ -45,8 +44,8 @@
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.0.0",
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
     "prettier": "^1.11.1",
     "react-dom": "^16.2.0",
     "webpack": "^4.2.0",
@@ -61,5 +60,10 @@
       "latest",
       "stage-0"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
